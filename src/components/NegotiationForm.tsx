@@ -65,7 +65,9 @@ export default function NegotiationForm({
       setMessage(
         `You have a previous ${
           matchingDiscount.discountCode ? "accepted" : "special"
-        } offer of $${matchingDiscount.discount.toFixed(2)} for this product.`
+        } offer of $${(
+          productVariant.price - matchingDiscount.discount
+        ).toFixed(2)} for this product.`
       );
       setDiscountCode(matchingDiscount.discountCode);
       setDiscountValue(matchingDiscount.discount);
