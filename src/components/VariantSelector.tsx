@@ -23,8 +23,8 @@ export default function VariantSelector({ product }: { product: Product }) {
         <div className="space-y-6">
           <div>
             <h1 className="text-2xl font-bold">{product.name}</h1>
-            <p className="text-gray-600 mt-2">{product.description}</p>
-            <p className="text-gray-600 font-semibold text-sm mt-2">
+            <p className="text-gray-600 dark:text-gray-300 mt-2">{product.description}</p>
+            <p className="text-gray-600 dark:text-gray-300 font-semibold text-sm mt-2">
               Select a variant:
             </p>
             <select

@@ -243,7 +243,9 @@ export default function NegotiationForm({
       ) : (
         // Show negotiation form when no valid discount exists
         <>
-          <h3 className="text-lg font-semibold mb-4">Make an Offer</h3>
+          <h3 className="text-lg font-semibold mb-4 dark:text-gray-600">
+            Make an Offer
+          </h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label

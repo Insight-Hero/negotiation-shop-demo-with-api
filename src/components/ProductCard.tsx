@@ -11,7 +11,7 @@ export default function ProductCard({ product }: { product: Product }) {
           className="w-full h-48 object-cover"
         />
         <div className="p-4">
-          <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
+          <h3 className="text-lg font-semibold mb-2 dark:text-gray-600">{product.name}</h3>
         </div>
       </div>
     </Link>
