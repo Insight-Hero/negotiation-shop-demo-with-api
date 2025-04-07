@@ -1,39 +1,71 @@
 export interface Product {
-  id: string;
+  productId: number;
   name: string;
-  price: number;
-  minPrice: number;
-  maxOffersCount: number;
   image: string;
   description: string;
+  variants: ProductVariant[];
+}
+
+export interface ProductVariant {
+  variantId: number;
+  variantName: string;
+  price: number;
 }
 
 export const products: Product[] = [
   {
-    id: "1",
-    name: "Vintage Leather Jacket",
-    price: 199.99,
-    minPrice: 149.99,
-    maxOffersCount: 3,
-    image: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3",
-    description: "Premium quality leather jacket with classic design",
+    productId: 6965953462307,
+    name: "The Multi-location Snowboard",
+    image: "https://images.unsplash.com/photo-1555424263-4f5e2c709c51",
+    description: "Your ultimate companion for versatility and adventure",
+    variants: [
+      {
+        variantId: 40370960334883,
+        variantName: "Default Title",
+        price: 800.0,
+      },
+    ],
   },
   {
-    id: "2",
-    name: "Wireless Headphones",
-    price: 89.99,
-    minPrice: 69.99,
-    maxOffersCount: 3,
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
-    description: "High-quality sound with noise cancellation",
+    productId: 6965953429539,
+    name: "The Collection Snowboard: Oxygen",
+    image: "https://images.unsplash.com/photo-1522056615691-da7b8106c665",
+    description:
+      "A masterpiece of lightweight performance and cutting-edge style",
+    variants: [
+      {
+        variantId: 40370960236579,
+        variantName: "Last season",
+        price: 1025.0,
+      },
+      {
+        variantId: 40370960269347,
+        variantName: "Modern",
+        price: 1025.0,
+      },
+      {
+        variantId: 40370960302115,
+        variantName: "Retro",
+        price: 3500.0,
+      },
+    ],
   },
   {
-    id: "3",
-    name: "Smart Watch",
-    price: 149.99,
-    minPrice: 109.99,
-    maxOffersCount: 3,
-    image: "https://images.unsplash.com/photo-1632794716789-42d9995fb5b6",
-    description: "Fitness tracking with sleek modern design",
+    productId: 6965953331235,
+    name: "The Collection Snowboard: Hydrogen",
+    image: "https://images.unsplash.com/photo-1590806351178-64634cc9613b",
+    description: "Where explosive energy meets bold design",
+    variants: [
+      {
+        variantId: 40370959941667,
+        variantName: "Classic Retro",
+        price: 650.0,
+      },
+      {
+        variantId: 40370959974435,
+        variantName: "Modern",
+        price: 650.0,
+      },
+    ],
   },
 ];

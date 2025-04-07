@@ -1,0 +1,19 @@
+productId,name,variantId,variantName,price,minPrice,inventory,productType,tags,bidEnabled,sku
+6965953003555,"The Archived Snowboard",40370958499875,"Default Title",629.95,NULL,0,,"Archived,Premium,Snow,Snowboard,Sport,Winter",0,
+6965953036323,"The Draft Snowboard",40370958532643,"Default Title",2629.9,NULL,0,,,0,
+6965953101859,"The Hidden Snowboard",40370959122467,"Default Title",749.95,NULL,0,,"Premium,Snow,Snowboard,Sport,Winter",0,
+6965953167395,"The 3p Fulfilled Snowboard",40370959188003,"Default Title",2629.9,NULL,-12,,"Accessory,Sport,Winter",0,sku-hosted-1
+6965953200163,"The Multi-managed Snowboard",40370959220771,"Default Title",629.95,521.47,-1,,"Premium,Snow,Snowboard,Sport,Winter",1,sku-managed-1
+6965953265699,"The Collection Snowboard: Liquid",40370959810595,"Default Title",749.95,NULL,0,,"Accessory,Sport,Winter",0,
+6965953331235,"The Collection Snowboard: Hydrogen",40370959941667,"classic retro",650,NULL,100,,"Accessory,Sport,Winter",0,
+6965953331235,"The Collection Snowboard: Hydrogen",40370959974435,modern,650,NULL,100,,"Accessory,Sport,Winter",0,
+6965953396771,"The Complete Snowboard",40370960039971,Ice,699.95,559.96,89,snowboard,"Premium,Snow,Snowboard,Sport,Winter",1,10
+6965953396771,"The Complete Snowboard",40370960072739,Dawn,719.95,575.96,100,snowboard,"Premium,Snow,Snowboard,Sport,Winter",1,11
+6965953396771,"The Complete Snowboard",40370960105507,Powder,719.95,575.96,100,snowboard,"Premium,Snow,Snowboard,Sport,Winter",1,12
+6965953396771,"The Complete Snowboard",40370960138275,Electric,699.95,559.96,0,snowboard,"Premium,Snow,Snowboard,Sport,Winter",1,13
+6965953396771,"The Complete Snowboard",40370960171043,Sunset,699.95,559.96,97,snowboard,"Premium,Snow,Snowboard,Sport,Winter",1,14
+6965953396771,"The Complete Snowboard",40370960203811,ORGİNAL,699.99,NULL,97,snowboard,"Premium,Snow,Snowboard,Sport,Winter",0,23232323
+6965953429539,"The Collection Snowboard: Oxygen",40370960236579,"Last season",1025,820,-3,,"Accessory,Sport,Winter",1,
+6965953429539,"The Collection Snowboard: Oxygen",40370960269347,Modern,1025,820,-1,,"Accessory,Sport,Winter",1,
+6965953429539,"The Collection Snowboard: Oxygen",40370960302115,Retro,3500,2800,0,,"Accessory,Sport,Winter",1,
+6965953462307,"The Multi-location Snowboard",40370960334883,"Default Title",800,720,-19,,"Premium,Snow,Snowboard,Sport,Winter",1,

@@ -1,7 +1,8 @@
 {
-  "name": "negotiation-shop-demo",
+  "name": "negotiation-shop-demo-with-api",
   "version": "0.1.0",
   "private": true,
+  "author": "Kosawat Sukchaya",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
