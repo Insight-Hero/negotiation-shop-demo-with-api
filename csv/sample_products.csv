@@ -5,8 +5,8 @@ productId,name,variantId,variantName,price,minPrice,inventory,productType,tags,b
 6965953167395,"The 3p Fulfilled Snowboard",40370959188003,"Default Title",2629.9,NULL,-12,,"Accessory,Sport,Winter",0,sku-hosted-1
 6965953200163,"The Multi-managed Snowboard",40370959220771,"Default Title",629.95,521.47,-1,,"Premium,Snow,Snowboard,Sport,Winter",1,sku-managed-1
 6965953265699,"The Collection Snowboard: Liquid",40370959810595,"Default Title",749.95,NULL,0,,"Accessory,Sport,Winter",0,
-6965953331235,"The Collection Snowboard: Hydrogen",40370959941667,"classic retro",650,NULL,100,,"Accessory,Sport,Winter",0,
-6965953331235,"The Collection Snowboard: Hydrogen",40370959974435,modern,650,NULL,100,,"Accessory,Sport,Winter",0,
+6965953331235,"The Collection Snowboard: Hydrogen",40370959941667,"classic retro",650,NULL,100,,"Accessory,Sport,Winter",1,
+6965953331235,"The Collection Snowboard: Hydrogen",40370959974435,modern,650,NULL,100,,"Accessory,Sport,Winter",1,
 6965953396771,"The Complete Snowboard",40370960039971,Ice,699.95,559.96,89,snowboard,"Premium,Snow,Snowboard,Sport,Winter",1,10
 6965953396771,"The Complete Snowboard",40370960072739,Dawn,719.95,575.96,100,snowboard,"Premium,Snow,Snowboard,Sport,Winter",1,11
 6965953396771,"The Complete Snowboard",40370960105507,Powder,719.95,575.96,100,snowboard,"Premium,Snow,Snowboard,Sport,Winter",1,12
